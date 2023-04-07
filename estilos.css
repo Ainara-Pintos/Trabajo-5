@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: #8DA4E2;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------------------Encavezado------------------------------*/
+.encabezado{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 150px;
+}
+
+.banner img{
+    height: 150px;
+    width: 1050px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/*------------------------------Menu------------------------------*/
+.menu{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul  li{
+    display: inline-block;
+}
+
+ul{
+    background-color: black;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+}
+
+li a{
+    color: white;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+/*------------------------------Cotenido------------------------------*/
+.contenido{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.contenido img, .texto, .box{
+    float: left;
+}
+
+.contenido img{
+    width: 230px;
+    margin: 10px;
+}
+
+.texto{
+    width: 680px;
+    margin:10px;
+}
+
+.box{
+    height: 300px;
+    width: 230px;
+    margin: 10px;
+    background-color: #DA7AC4;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+.box p, h3{
+    margin: 8px;
+}
